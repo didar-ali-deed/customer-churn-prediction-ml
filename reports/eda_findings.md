@@ -1,0 +1,5 @@
+- Contract: Month-to-month churns at 42.7% (n=3078) versus Two year at 2.9% (n=1356) -> encode contract duration; it may capture commitment; this is an association, not a causal effect.
+- InternetService: Fiber optic churns at 42.3% (n=2469) versus No at 6.8% (n=1214) -> encode service type and consider service-related interactions; this is an association, not a causal effect.
+- PaymentMethod: Electronic check churns at 45.2% (n=1905) versus Credit card (automatic) at 15.2% (n=1213) -> keep payment categories and test an autopay indicator; this is an association, not a causal effect.
+- tenure_bucket: 0-12 churns at 47.3% (n=1728) versus 49+ at 10.0% (n=1782) -> retain numeric tenure and test fixed tenure groups; this is an association, not a causal effect.
+- Median MonthlyCharges is 79.90 for churners and 64.50 for stayers -> test charge-related features without assuming price causes churn.
