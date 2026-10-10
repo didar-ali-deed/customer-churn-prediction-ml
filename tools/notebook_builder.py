@@ -6,13 +6,13 @@ import nbformat
 
 BOOTSTRAP = '''from pathlib import Path
 import sys
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np  # noqa: F401
+from IPython.display import display
 ROOT = Path.cwd() if (Path.cwd() / "src").exists() else Path.cwd().parent
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
-import matplotlib.pyplot as plt
-import pandas as pd
-import numpy as np
-from IPython.display import display
 plt.rcParams["figure.figsize"] = (8, 4)
 '''
 
