@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "python": "3.11.9",
+  "mode": "Actual local Git clone plus pending final working-tree files, new venv, derived artifacts removed",
+  "requirements_install": "passed",
+  "pip_check": "passed",
+  "scripts_01_through_09": "passed in order",
+  "notebooks_01_through_09": "executed without errors",
+  "ruff": "passed",
+  "pytest": "passed",
+  "log": ".validation/fresh-_cw5yerc/validation.log",
+  "original_artifacts": "unchanged",
+  "inline_plot_check": "passed",
+  "project_venv_kernel_guard": "passed",
+  "lesson_fix_recheck": "All scripts/notebooks rerun in the same independently created venv; test evaluation reused"
+}

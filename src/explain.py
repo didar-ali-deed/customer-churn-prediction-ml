@@ -111,6 +111,8 @@ def run_explanations(show: bool = False) -> tuple[pd.DataFrame, dict[str, Any]]:
     """Save global summary, magnitude bar, local waterfall, and recommendations."""
     ensure_dirs()
     explanation, drivers, info = explain_model()
+    # SHAP's beeswarm uses NumPy's global RNG for visual jitter (no seed argument).
+    np.random.seed(SEED)
     shap.plots.beeswarm(explanation, max_display=12, show=False)
     plt.title(f"Training SHAP summary ({info['output_units']})")
     save_figure(plt.gcf(), "shap_summary", show)

@@ -13,6 +13,8 @@ from IPython.display import display
 ROOT = Path.cwd() if (Path.cwd() / "src").exists() else Path.cwd().parent
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
+assert Path(sys.executable).resolve().is_relative_to(ROOT / ".venv"), "Select the project venv kernel."
+%matplotlib inline
 plt.rcParams["figure.figsize"] = (8, 4)
 '''
 
