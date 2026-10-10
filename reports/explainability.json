@@ -1,0 +1,14 @@
+{
+  "model_hash": "ec5c1872899ff5ec701bfb13da69655c339047b89c30ea4b7b6d8ce2abcb9e1d",
+  "training_sample_size": 200,
+  "background_size": 100,
+  "output_units": "log-odds",
+  "max_additivity_error": 2.0315583570962303e-06,
+  "local_sample_position": 24,
+  "local_training_row_index": 1971,
+  "local_churn_probability": 0.8668443560600281,
+  "local_baseline_output": -1.2913541520755794,
+  "local_final_output": 1.8733408451080322,
+  "global_importance_definition": "Sum mean absolute SHAP over encoded columns per business field; magnitude is not direction.",
+  "caveat": "Training-only sample; correlated features share credit; interventional background may create unrealistic combinations; explanation is not causation."
+}

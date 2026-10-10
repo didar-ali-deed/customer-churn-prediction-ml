@@ -1,0 +1,26 @@
+feature,mean_abs_shap,recommendation
+Contract,0.8184523016927898,"Offer clear, optional longer-term plan choices; test whether their value improves retention."
+InternetService,0.35611401532160025,Investigate service experience and reliability by plan; validate issues with service-quality data.
+tenure,0.33270667833864775,Pilot stronger onboarding and early check-ins; measure retention with a controlled experiment.
+MonthlyCharges,0.20480613363516403,Review bill clarity and plan value with customers; test targeted bill-review support before offering discounts.
+PaymentMethod,0.14101622273774334,"Offer convenient, optional payment reminders or autopay education; test uptake and retention."
+TotalCharges,0.1053390093941587,Review bill clarity and plan value with customers; test targeted bill-review support before offering discounts.
+PaperlessBilling,0.0952785226453896,"Offer convenient, optional payment reminders or autopay education; test uptake and retention."
+avg_monthly_spend,0.09174549504751157,Review bill clarity and plan value with customers; test targeted bill-review support before offering discounts.
+OnlineSecurity,0.0841725187899323,Pilot clearer support and bundle-value communication; measure whether customer experience improves.
+MultipleLines,0.06323919946654115,Investigate service experience and reliability by plan; validate issues with service-quality data.
+tenure_bucket,0.05429520604436983,Pilot stronger onboarding and early check-ins; measure retention with a controlled experiment.
+TechSupport,0.05355945066334171,Pilot clearer support and bundle-value communication; measure whether customer experience improves.
+SeniorCitizen,0.053007176912513415,Audit subgroup performance and fairness; do not assume demographic membership calls for different treatment.
+StreamingMovies,0.04971160985511597,Pilot clearer support and bundle-value communication; measure whether customer experience improves.
+PhoneService,0.03668474736639473,Investigate service experience and reliability by plan; validate issues with service-quality data.
+StreamingTV,0.027550161869023586,Pilot clearer support and bundle-value communication; measure whether customer experience improves.
+charge_ratio,0.02712896708906627,Review bill clarity and plan value with customers; test targeted bill-review support before offering discounts.
+OnlineBackup,0.0220682067312453,Pilot clearer support and bundle-value communication; measure whether customer experience improves.
+Dependents,0.020516589430755995,Research different household service needs without assuming family status causes churn.
+num_services,0.007748894556042432,Pilot clearer support and bundle-value communication; measure whether customer experience improves.
+DeviceProtection,0.005909811866118253,Pilot clearer support and bundle-value communication; measure whether customer experience improves.
+gender,0.005365964044540305,Audit subgroup performance and fairness; do not assume demographic membership calls for different treatment.
+Partner,0.0046296538598799095,Research different household service needs without assuming family status causes churn.
+is_autopay,0.001858830189589935,"Offer convenient, optional payment reminders or autopay education; test uptake and retention."
+has_support_bundle,0.0005552170774899418,Pilot clearer support and bundle-value communication; measure whether customer experience improves.
