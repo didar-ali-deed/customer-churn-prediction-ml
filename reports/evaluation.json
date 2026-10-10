@@ -1,0 +1,32 @@
+{
+  "signature": "27bb7dbe55a3024ff7c292e09991ea7f70c2fe99497034c5e3721a6b59f3805f",
+  "selected_model": "XGBoost",
+  "test_rows": 1405,
+  "default": {
+    "threshold": 0.5,
+    "roc_auc": 0.844011856061789,
+    "pr_auc_ap": 0.6591779289315742,
+    "precision": 0.6725352112676056,
+    "recall": 0.5134408602150538,
+    "f1": 0.5823170731707317,
+    "brier_score": 0.13575750589370728,
+    "false_negative": 181,
+    "false_positive": 93,
+    "cost": 998
+  },
+  "cost_selected": {
+    "threshold": 0.15999999999999998,
+    "roc_auc": 0.844011856061789,
+    "pr_auc_ap": 0.6591779289315742,
+    "precision": 0.4420772303595206,
+    "recall": 0.8924731182795699,
+    "f1": 0.591273374888691,
+    "brier_score": 0.13575750589370728,
+    "false_negative": 40,
+    "false_positive": 419,
+    "cost": 619
+  },
+  "tuned_cv_ap": 0.6645907111228918,
+  "tuned_cv_ap_std": 0.04288448626169317,
+  "test_minus_cv_ap": -0.005412782191317578
+}

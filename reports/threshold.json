@@ -1,0 +1,10 @@
+{
+  "threshold": 0.15999999999999998,
+  "source": "training_out_of_fold_predictions",
+  "missed_churner_cost": 5,
+  "wasted_offer_cost": 1,
+  "oof_cost_per_customer": 0.42236467236467234,
+  "model_hash": "ec5c1872899ff5ec701bfb13da69655c339047b89c30ea4b7b6d8ce2abcb9e1d",
+  "signature": "27bb7dbe55a3024ff7c292e09991ea7f70c2fe99497034c5e3721a6b59f3805f",
+  "selection_caveat": "OOF uses hyperparameters selected on training CV; cost is not unbiased nested-CV cost."
+}
