@@ -1,6 +1,6 @@
 # Customer Churn Prediction
 
-A complete, local Python project teaching data quality, leakage prevention, imbalanced classification, feature engineering, fair model comparison, cost-based decisions, and SHAP. Nine executed Jupyter notebooks explain the reasoning; equivalent Python scripts call shared functions in `src/`.
+A complete, local Python project teaching data quality, leakage prevention, imbalanced classification, feature engineering, fair model comparison, cost-based decisions, and SHAP. Nine executed Jupyter notebooks explaAin the reasoning; equivalent Python scripts call shared functions in `src/`.
 
 The goal is to identify telecom customers for retention review. A prediction does not establish that an offer will prevent churn.
 
